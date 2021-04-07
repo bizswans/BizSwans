@@ -1566,7 +1566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-height: 35px;
   }
 
   #intro h2 {
@@ -1580,6 +1580,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+  header#header {
+    padding: 10px 0;
+    height: auto;
+    
+}
+#header.header-scrolled {
+  padding: 15px 0;
+  height: 60px;
+  line-height: 0;
+}
+}
+button#mobile-nav-toggle {
+  margin: 10px 20px 0 0;
 }
 #feature-wrapper 
 color: #000;
